@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 REM= 10PX */
+}
+
+
+/* Nav section */
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    font-size: 5.5rem;
+     
+    }
+a {
+ text-decoration: none;
+}
+
+nav {
+    background-color: blueviolet;
+}
+ul :hover {
+    background-color: black;
+   
+}
+
+/* Body section */
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.hero-img {
+   
+    background-image: url(./Hero\ banner.jpg);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.proj {
+text-align: center;
+
+}
+.section {
+    display: flex;
+}
+
+aside {
+    flex: auto;
+    flex-direction: column;
+    
+
+}
+
+.box {
+    display: flexbox;
+    text-align: center;
+    margin-right: auto;
+}
+
+/* Buttons */
+
+.html {
+    box-shadow:inset 0rem 0.1rem 0rem 0rem #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:3.3rem;
+	border:0.2rem solid  #d02718;
+	display:inline-block;	
+	color:#ffffff;
+	font-family:Arial;
+	font: size 2rem;;
+	font-weight:bold;
+	padding:0.6rem 2.4rem;
+	text-decoration:none;
+	text-shadow:0rem 0.1rem 0rem  #810e05;
+}
+.css {
+    box-shadow:inset 0rem 0.1rem 0rem 0rem #97c4fe;;;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:3.3rem;
+	border:0.2rem solid #1570cd;
+	display:inline-block;	
+	color:#ffffff;
+	font-family:Arial;
+	font: size 2rem;;
+	font-weight:bold;
+	padding:0.6rem 2.4rem;
+	text-decoration:none;
+	text-shadow:0rem 0.1rem 0rem  #1570cd;
+}
+
+.java {
+    box-shadow:inset 0rem 0.1rem 0rem 0rem #f9eca0;;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:3.3rem;
+	border:0.2rem solid #e65f44;
+	display:inline-block;
+	color:#c92200;
+	font-family:Arial;
+	font: size 2rem;;
+	font-weight:bold;
+	padding:0.6rem 2.4rem;
+	text-decoration:none;
+	text-shadow:0rem 0.1rem 0rem  #ded17c;   
+}
+
+
+
+   
+
+
+/* Footer section */
